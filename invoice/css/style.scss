@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   gap: 48px;
   align-items: center;
-  img{
+  img {
     height: auto;
     object-fit: contain;
   }
@@ -76,7 +76,8 @@ body {
     }
 
     & > img {
-      width: 10rem;
+      max-width: 10rem;
+      flex: 1;
       // height: fit-content;
       height: auto;
     }

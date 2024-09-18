@@ -71,7 +71,8 @@
   font-weight: 600;
 }
 .bill-print > section:nth-child(1) > img {
-  width: 10rem;
+  max-width: 10rem;
+  flex: 1;
   height: auto;
 }
 .bill-print > section:nth-child(2) {
