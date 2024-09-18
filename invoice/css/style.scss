@@ -30,7 +30,9 @@ body {
   flex-direction: column;
   gap: 48px;
   align-items: center;
-
+  img{
+    max-height: fit-content;
+  }
   @media screen and (max-width: 639px) {
     width: 200%;
     transform: scale(0.5);
