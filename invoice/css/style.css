@@ -30,8 +30,9 @@
   align-items: center;
 }
 .bill-print img {
-  max-height: fit-content;
-  max-height: -moz-fit-content;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media screen and (max-width: 639px) {
   .bill-print {
@@ -71,8 +72,7 @@
 }
 .bill-print > section:nth-child(1) > img {
   width: 10rem;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
 }
 .bill-print > section:nth-child(2) {
   text-align: center;

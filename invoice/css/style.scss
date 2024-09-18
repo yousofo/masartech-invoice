@@ -31,7 +31,8 @@ body {
   gap: 48px;
   align-items: center;
   img{
-    max-height: fit-content;
+    height: auto;
+    object-fit: contain;
   }
   @media screen and (max-width: 639px) {
     width: 200%;
@@ -76,7 +77,8 @@ body {
 
     & > img {
       width: 10rem;
-      height: fit-content;
+      // height: fit-content;
+      height: auto;
     }
   }
 
