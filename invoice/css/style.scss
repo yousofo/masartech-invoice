@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   @media print {
     * {
@@ -17,6 +18,7 @@ body {
     }
   }
 }
+
 .bill-print {
   width: 100%;
   direction: rtl;
@@ -28,32 +30,40 @@ body {
   flex-direction: column;
   gap: 48px;
   align-items: center;
+
   @media screen and (max-width: 639px) {
     width: 200%;
     transform: scale(0.5);
     transform-origin: left;
+
     #print-btn {
       font-size: 32px !important;
     }
   }
+
   section {
     width: 100%;
   }
+
   h1 {
     font-size: 38px;
   }
+
   li {
     list-style: none;
   }
+
   & > section:nth-child(1) {
     display: flex;
     width: 100%;
     justify-content: space-between;
     gap: 16px;
+
     .org-info {
       display: flex;
       flex-direction: column;
       gap: 16px;
+
       ul {
         display: flex;
         flex-direction: column;
@@ -61,14 +71,17 @@ body {
         font-weight: 600;
       }
     }
+
     & > img {
       width: 10rem;
       height: fit-content;
     }
   }
+
   & > section:nth-child(2) {
     text-align: center;
   }
+
   & > section:nth-child(3) {
     ul {
       display: flex;
@@ -76,17 +89,20 @@ body {
       gap: 8px;
       font-size: 18px;
       font-weight: 500;
+
       li {
         display: grid;
-        grid-template-columns: 120px 1fr; /* Two columns: first spans auto size, second spans align */
+        grid-template-columns: 120px 1fr;
         column-gap: 10px;
       }
     }
   }
+
   & > section:nth-child(4) {
     display: flex;
     justify-content: space-between;
   }
+
   #print-btn {
     width: 100%;
     padding: 16px;
@@ -95,8 +111,9 @@ body {
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
+
     &:hover {
-      background-color: #812990de;
+      background-color: rgba(129, 41, 144, 0.87);
     }
   }
 

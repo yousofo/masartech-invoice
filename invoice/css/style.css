@@ -82,7 +82,7 @@
 }
 .bill-print > section:nth-child(3) ul li {
   display: grid;
-  grid-template-columns: 120px 1fr; /* Two columns: first spans auto size, second spans align */
+  grid-template-columns: 120px 1fr;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
@@ -100,7 +100,7 @@
   transition: all 0.3s ease;
 }
 .bill-print #print-btn:hover {
-  background-color: rgba(129, 41, 144, 0.8705882353);
+  background-color: rgba(129, 41, 144, 0.87);
 }
 .bill-print .org-seal {
   height: 128px;
