@@ -29,6 +29,16 @@
   gap: 48px;
   align-items: center;
 }
+@media screen and (max-width: 639px) {
+  .bill-print {
+    width: 200%;
+    scale: 0.5;
+    transform-origin: left;
+  }
+  .bill-print #print-btn {
+    font-size: 32px !important;
+  }
+}
 .bill-print section {
   width: 100%;
 }
@@ -42,6 +52,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  gap: 16px;
 }
 .bill-print > section:nth-child(1) .org-info {
   display: flex;

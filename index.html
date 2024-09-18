@@ -14,8 +14,8 @@
           <ul>
             <li><span>الرقم الضريبي:</span> <span>123456789</span></li>
             <li><span>الهاتف:</span> <span>123456789</span></li>
-            <li>طريق ابي بكر الصديق الفرعي, التعاون, الرياض</li>
-            <li>مركز البلازا, الدور الأول, مكتب رقم 5</li>
+            <li>طريق ابي بكر الصديق الفرعي، التعاون، الرياض</li>
+            <li>مركز البلازا، الدور الأول، مكتب رقم 5</li>
           </ul>
         </div>
         <img src="./invoice/assets/logo-dark-Photoroom.png" alt="" />
@@ -47,6 +47,7 @@
     <script src="./invoice/js/qrcode.min.js"></script>
     <script>
       console.log(window.location.href);
+
       var qrcode = new QRCode("qrcode", {
         text: `${window.location.href}`,
         width: 128,
@@ -55,6 +56,7 @@
         colorLight: "#ffffff",
         correctLevel: QRCode.CorrectLevel.H,
       });
+      
       document.querySelector("#print-btn").addEventListener("click", () => {
         window.print();
       })
