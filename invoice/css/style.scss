@@ -37,7 +37,7 @@ body {
   @media screen and (max-width: 639px) {
     width: 200%;
     transform: scale(0.5);
-    transform-origin: left;
+    transform-origin: top left;
 
     #print-btn {
       font-size: 32px !important;

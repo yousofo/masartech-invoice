@@ -38,7 +38,7 @@
   .bill-print {
     width: 200%;
     transform: scale(0.5);
-    transform-origin: left;
+    transform-origin: top left;
   }
   .bill-print #print-btn {
     font-size: 32px !important;
