@@ -95,6 +95,12 @@
   display: flex;
   justify-content: space-between;
 }
+.bill-print > section:nth-child(4) .org-seal {
+  height: 128px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: auto;
+}
 .bill-print #print-btn {
   width: 100%;
   padding: 16px;
@@ -106,9 +112,4 @@
 }
 .bill-print #print-btn:hover {
   background-color: rgba(129, 41, 144, 0.87);
-}
-.bill-print .org-seal {
-  height: 128px;
-  width: -moz-fit-content;
-  width: fit-content;
 }/*# sourceMappingURL=style.css.map */
