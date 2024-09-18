@@ -30,9 +30,9 @@ body {
   align-items: center;
   @media screen and (max-width: 639px) {
     width: 200%;
-    scale: .5;
+    transform: scale(0.5);
     transform-origin: left;
-    #print-btn{
+    #print-btn {
       font-size: 32px !important;
     }
   }
